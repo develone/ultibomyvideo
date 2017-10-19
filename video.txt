@@ -1,0 +1,11 @@
+Converting avi to h264  https://github.com/develone/EKIS/blob/master/videos/video.avi  
+
+avconv -i video.avi -y -c:v libx264 video.h264  
+Modified liee 62 Hellovideo.lpr  argv:=AllocateCommandLine('C:\test.h264',argc); 
+argv:=AllocateCommandLine('C:\video.h264',argc);  
+Run/Compile 
+copied the kernel7.img & video.h264 to sd-card  
+cp kernel7.img /media/vidal/FB25-444F/  
+cp ~/video.h264 /media/vidal/FB25-444F/  
+
+WOW this new verison is very impressive.
